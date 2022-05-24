@@ -2,17 +2,16 @@ html, body {
     height: 120%;
   }
 body {
-    height: 80%;
-    background: conic-gradient(at 0% 20%, #153d8d 15%,#1b315e 30%, #0d7585 36%, #088171 42%, #5073b8 46%,#a166ab 50%,#8b2b47 52%,#bb513b 60%,#bd7328 62%);
-    border: linear-gradient(140deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+	height: 80%;
+	background: conic-gradient(at 0% 20%, #153d8d 15%,#1b315e 30%, #0d7585 36%, #088171 42%, #5073b8 46%,#a166ab 50%,#8b2b47 52%,#bb513b 60%,#bd7328 62%);
+	border: linear-gradient(140deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
 	background-size: 150%;
 	font-family: Arial, Helvetica, sans-serif;
 	color: white;
-
-	animation: animated_text 24s ease-in-out infinite;
-	-moz-animation: animated_text 24s ease-in-out infinite;
-	-webkit-animation: animated_text 24s ease-in-out infinite;
-  }
+	animation: animated_text 8s ease-in-out infinite;
+	-moz-animation: animated_text 8s ease-in-out infinite;
+	-webkit-animation: animated_text 8s ease-in-out infinite;
+}
 h1 {font-size:60px;
     height:80px;
 	background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);

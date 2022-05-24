@@ -16,6 +16,6 @@ function tabelleGenerieren(){
         html += hex;
         html += '</td></tr>';
     }
-    html += '</tbody></table>';
+    html += '</tbody></table><hr class="m-5 bg-success">';
     table.innerHTML += html;
 }
