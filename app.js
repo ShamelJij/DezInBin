@@ -19,3 +19,16 @@ function tabelleGenerieren(){
     html += '</tbody></table><hr class="m-5 bg-success">';
     table.innerHTML += html;
 }
+
+window.onload = function() {
+    var reloading = sessionStorage.getItem("reloading");
+    if (reloading) {
+        sessionStorage.removeItem("reloading");
+        tabelleGenerieren();
+    }
+}
+
+function reloadP() {
+    sessionStorage.setItem("reloading", "true");
+    document.location.reload();
+}
