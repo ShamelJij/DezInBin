@@ -3,7 +3,7 @@ html, body {
   }
 body {
 	height: 10%;
-	background: conic-gradient(at 0% 5%, #153d8d 15%,#1b315e 30%, #0d7585 36%, #088171 38%, #5073b8 40%,#a166ab 42%,#8b2b47 44%,#bb513b 46%,#1b315e 50%);
+	background: conic-gradient(at 0% 5%, #153d8d 15%,#1b315e 30%, #0d7585 40%, #088171 50%);
 	border: linear-gradient(140deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
 	background-size: 150%;
 	font-family: Arial, Helvetica, sans-serif;
